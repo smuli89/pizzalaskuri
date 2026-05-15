@@ -19,7 +19,7 @@ jobs:
         with:
           node-version: 16
 
-      - name: Install dependencies
+      - name: Install dependencies and generate lock file
         run: npm ci
 
       - name: Build the React app
